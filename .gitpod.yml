@@ -2,5 +2,4 @@ tasks:
   - init: go install ./...
     command: go build ./...
 
-image:
-  - golang:1.16.8-bullseye
+image: golang:1.16.8-bullseye
